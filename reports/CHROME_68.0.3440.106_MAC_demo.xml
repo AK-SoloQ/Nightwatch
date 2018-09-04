@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="0" failures="1" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="19.52" timestamp="Mon, 03 Sep 2018 17:39:01 GMT">
+  
+    <testcase name="Demo test Google" classname="demo" time="19.52" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;body&gt; contains text: &#34;notre serve&#34;.">    at Object.Demo test Google (/Users/MacBook/Documents/NigthWatch/tests/demo.js:14:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

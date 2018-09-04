@@ -1,0 +1,120 @@
+13:25:53.443 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+13:25:53.444 INFO - Launching a standalone Selenium Server
+2018-09-04 13:25:53.461:INFO::main: Logging initialized @226ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:25:53.513 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:25:53.513 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:25:53.514 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:25:53.514 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+13:25:53.514 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:25:53.514 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2018-09-04 13:25:53.553:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2018-09-04 13:25:53.586:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@4c70fda8{/,null,AVAILABLE}
+2018-09-04 13:25:53.619:INFO:osjs.AbstractConnector:main: Started ServerConnector@204f30ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-09-04 13:25:53.619:INFO:osjs.Server:main: Started @384ms
+13:25:53.620 INFO - Selenium Server is up and running
+13:25:53.809 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+13:25:53.832 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+13:25:53.849 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1536063954059	geckodriver	INFO	geckodriver 0.21.0
+1536063954065	geckodriver	INFO	Listening on 127.0.0.1:5691
+1536063954137	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5n/kmy31wks4jb1bbc2274mw4lw0000gn/T/rust_mozprofile.crRLJUK97ObX"
+2018-09-04 13:25:55.258 plugin-container[1202:15283] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-09-04 13:25:55.443 plugin-container[1203:15309] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x800b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1536063955625	Marionette	INFO	Listening on port 50458
+13:25:55.719 INFO - Detected dialect: W3C
+13:25:55.735 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+13:25:55.758 INFO - Executing: [get: https://forja.tn/movies])
+2018-09-04 13:25:56.218 plugin-container[1204:15422] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+13:26:02.743 INFO - Done: [get: https://forja.tn/movies]
+13:26:02.749 INFO - Executing: [find elements: By.cssSelector: body])
+13:26:02.771 INFO - Done: [find elements: By.cssSelector: body]
+13:26:02.776 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: body]])
+13:26:02.811 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: body]]
+13:26:02.815 INFO - Executing: [find elements: By.cssSelector: button[type=button]])
+13:26:02.829 INFO - Done: [find elements: By.cssSelector: button[type=button]]
+13:26:02.832 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]])
+13:26:02.859 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]]
+13:26:03.363 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]])
+13:26:03.388 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]]
+13:26:03.394 INFO - Executing: [find element: By.cssSelector: button[type=button]])
+13:26:03.403 INFO - Done: [find element: By.cssSelector: button[type=button]]
+13:26:03.407 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]])
+13:26:03.638 INFO - Done: [click: 1 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]]
+13:26:03.642 INFO - Executing: [find element: By.cssSelector: #search-input])
+13:26:03.651 INFO - Done: [find element: By.cssSelector: #search-input]
+13:26:03.655 INFO - Executing: [send keys: 14 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #search-input], [d, e, a, d, p, o, o, l]])
+13:26:03.689 INFO - Done: [send keys: 14 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #search-input], [d, e, a, d, p, o, o, l]]
+13:26:06.697 INFO - Executing: [find element: By.cssSelector: #medias_container > a])
+13:26:06.708 INFO - Done: [find element: By.cssSelector: #medias_container > a]
+13:26:06.711 INFO - Executing: [click: 15 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #medias_container > a]])
+Unable to get IOVARendererSubID
+13:26:15.120 INFO - Done: [click: 15 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #medias_container > a]]
+13:26:18.130 INFO - Executing: [find elements: By.cssSelector: button[type=button]])
+13:26:18.150 INFO - Done: [find elements: By.cssSelector: button[type=button]]
+13:26:18.154 INFO - Executing: [is displayed: 16 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]])
+13:26:18.177 INFO - Done: [is displayed: 16 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]]
+13:26:18.181 INFO - Executing: [find element: By.cssSelector: button[type=button]])
+13:26:18.189 INFO - Done: [find element: By.cssSelector: button[type=button]]
+13:26:18.192 INFO - Executing: [click: 16 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]])
+13:26:18.423 INFO - Done: [click: 16 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: button[type=button]]]
+13:26:18.427 INFO - Executing: [find elements: By.cssSelector: #playerContainer])
+13:26:18.436 INFO - Done: [find elements: By.cssSelector: #playerContainer]
+13:26:18.439 INFO - Executing: [is displayed: 41 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #playerContainer]])
+13:26:18.458 INFO - Done: [is displayed: 41 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #playerContainer]]
+13:26:18.461 INFO - Executing: [find element: By.cssSelector: #playerContainer])
+13:26:18.469 INFO - Done: [find element: By.cssSelector: #playerContainer]
+13:26:18.472 INFO - Executing: [click: 41 [[FirefoxDriver: firefox on ANY (2ecdea99-0d42-344e-b934-ea9743ef7357)] -> css selector: #playerContainer]])
+13:26:19.053 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: Element <div id="playerContainer" class="col-12"> is not clickable at point (632.5,518.1416473388672) because another element <div class="modal-backdrop fade"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MacBook-Pro-de-MacBook-4.local', ip: 'fd3c:678c:ef10:600:259f:ce21:2769:45d7', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/5n/kmy31wks4jb1bbc2274mw4lw0000gn/T/rust_mozprofile.crRLJUK97ObX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=61.0.1, platformVersion=17.7.0, moz:processID=1201.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=true}]
+Session ID: 2ecdea99-0d42-344e-b934-ea9743ef7357
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13:26:19.055 WARN - Exception: Element <div id="playerContainer" class="col-12"> is not clickable at point (632.5,518.1416473388672) because another element <div class="modal-backdrop fade"> obscures it
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'MacBook-Pro-de-MacBook-4.local', ip: 'fd3c:678c:ef10:600:259f:ce21:2769:45d7', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/5n/kmy31wks4jb1bbc2274mw4lw0000gn/T/rust_mozprofile.crRLJUK97ObX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=61.0.1, platformVersion=17.7.0, moz:processID=1201.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=true}]
+Session ID: 2ecdea99-0d42-344e-b934-ea9743ef7357
+13:26:34.215 INFO - Executing: [delete session: 5569d67a-0087-46ce-a1b7-46e15dbb60ef])
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+13:26:34.682 INFO - Done: [delete session: 5569d67a-0087-46ce-a1b7-46e15dbb60ef]
