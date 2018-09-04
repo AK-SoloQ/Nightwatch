@@ -20,7 +20,7 @@ Nightwatch.js va vous permettre d'écrire vos tests en utilisant une syntaxe fam
 
 
 
-###Configuration
+### Configuration
 
 > La configuration de nightwatch.js se fait au moyen d'un simple nightwatch.json
 > 
